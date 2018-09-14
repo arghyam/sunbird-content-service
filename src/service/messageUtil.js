@@ -402,9 +402,9 @@ exports.EMAIL = {
     FAILED_CODE: 'ERR_SEND_REJECT_CONTENT_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for reject content',
     SUBJECT: 'Our sincere apologies! Content Type: {{Content type}}, Title: {{Content title}}',
-    BODY: 'We acknowledge your contribution and effort in creating content for us.' +
-            ' However, we are unable to accept the content that you submitted.<br>' +
-            'We look forward to a more meaningful relationship with you, the next time around. <br><br>' +
+    BODY: 'Your content was reviewed and we are unable to accept the content as is. ' +
+            "Certain changes have been suggested. Request you to look at the reviewer's " +
+            'suggestion and make changes so that the content can be published. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>' +
             '<b>Title: </b>{{Content title}}<br>' +
             '<b>Status: </b>{{Content status}}<br>',
