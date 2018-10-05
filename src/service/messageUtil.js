@@ -380,7 +380,8 @@ exports.EMAIL = {
   REJECT_FLAG: {
     FAILED_CODE: 'ERR_SEND_REJECT_FLAG_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for reject flag',
-    SUBJECT: 'Congratulations, your content is live! Content Type: {{Content type}}, Title: {{Content title}}',
+    SUBJECT: 'Congratulations, your content has been published! ' +
+            'Content Type: {{Content type}}, Title: {{Content title}}',
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication.' +
             ' It is now available for usage. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>' +
@@ -391,7 +392,8 @@ exports.EMAIL = {
   PUBLISHED_CONTENT: {
     FAILED_CODE: 'ERR_SEND_PUBLISHED_CONTENT_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for published content',
-    SUBJECT: 'Congratulations, your content is live! Content Type: {{Content type}}, Title: {{Content title}}',
+    SUBJECT: 'Congratulations, your content has been published! ' +
+            'Content Type: {{Content type}}, Title: {{Content title}}',
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication. ' +
             'It will be available for usage shortly. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>  ' +
