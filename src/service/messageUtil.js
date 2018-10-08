@@ -397,7 +397,7 @@ exports.EMAIL = {
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication. ' +
             'It will be available for usage shortly. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>  ' +
-            '<b>Title: </b>Published<br>',
+            '<b>Title: </b>{{Content title}}<br>',
     TEMPLATE: 'publishContent'
   },
   REJECT_CONTENT: {
