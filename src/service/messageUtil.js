@@ -386,7 +386,7 @@ exports.EMAIL = {
             ' It is now available for usage. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>' +
             '<b>Title: </b>{{Content title}}<br>' +
-            '<b>Status: </b>{{Content status}}<br>',
+            '<b>Status: </b>Published<br>',
     TEMPLATE: 'rejectFlag'
   },
   PUBLISHED_CONTENT: {
@@ -397,7 +397,7 @@ exports.EMAIL = {
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication. ' +
             'It will be available for usage shortly. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>  ' +
-            '<b>Title: </b>{{Content title}}<br>',
+            '<b>Title: </b>Published<br>',
     TEMPLATE: 'publishContent'
   },
   REJECT_CONTENT: {
