@@ -387,18 +387,20 @@ exports.EMAIL = {
   REJECT_FLAG: {
     FAILED_CODE: 'ERR_SEND_REJECT_FLAG_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for reject flag',
-    SUBJECT: 'Congratulations, your content is live! Content Type: {{Content type}}, Title: {{Content title}}',
+    SUBJECT: 'Congratulations, your content has been published! ' +
+            'Content Type: {{Content type}}, Title: {{Content title}}',
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication.' +
             ' It is now available for usage. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>' +
             '<b>Title: </b>{{Content title}}<br>' +
-            '<b>Status: </b>{{Content status}}<br>',
+            '<b>Status: </b>Published<br>',
     TEMPLATE: 'rejectFlag'
   },
   PUBLISHED_CONTENT: {
     FAILED_CODE: 'ERR_SEND_PUBLISHED_CONTENT_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for published content',
-    SUBJECT: 'Congratulations, your content is live! Content Type: {{Content type}}, Title: {{Content title}}',
+    SUBJECT: 'Congratulations, your content has been published! ' +
+            'Content Type: {{Content type}}, Title: {{Content title}}',
     BODY: 'Congratulations! The content that you had submitted has been accepted for publication. ' +
             'It will be available for usage shortly. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>  ' +
@@ -409,9 +411,9 @@ exports.EMAIL = {
     FAILED_CODE: 'ERR_SEND_REJECT_CONTENT_EMAIL',
     FAILED_MESSAGE: 'Sending email failed for reject content',
     SUBJECT: 'Our sincere apologies! Content Type: {{Content type}}, Title: {{Content title}}',
-    BODY: 'We acknowledge your contribution and effort in creating content for us.' +
-            ' However, we are unable to accept the content that you submitted.<br>' +
-            'We look forward to a more meaningful relationship with you, the next time around. <br><br>' +
+    BODY: 'Your content was reviewed and we are unable to accept the content as is. ' +
+            "Certain changes have been suggested. Request you to look at the reviewer's " +
+            'suggestion and make changes so that the content can be published. <br><br>' +
             '<b>Content Type: </b>{{Content type}}<br>' +
             '<b>Title: </b>{{Content title}}<br>' +
             '<b>Status: </b>{{Content status}}<br>',
